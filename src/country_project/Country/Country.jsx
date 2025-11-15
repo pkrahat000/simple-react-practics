@@ -20,7 +20,6 @@ const Country = ({data, handleCountryVisited}) => {
         console.log(visited)
     return (
         <div>
-            {/* {`boday-od-card ${visited && 'boday-od-card-visited'}`} */}
                     <div className={`body ${visited && 'boday-od-card-visited'}`}>
                         <div class={`country-card ${visited && 'country-card-visited'}`}>
                             <img class="flag" src={data.flags.png} alt="Bangladesh Flag"></img>
@@ -42,3 +41,4 @@ const Country = ({data, handleCountryVisited}) => {
 };
 
 export default Country;
+       

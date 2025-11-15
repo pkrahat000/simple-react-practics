@@ -27,20 +27,21 @@ function App() {
   return (
     <>
       <Developer id='01' name='Rahat' position='Developer'></Developer>
+      
       <DataCenterHeading data='Data Center'></DataCenterHeading>
+
       <FinalCard></FinalCard>
+
       {/* <Myfil name='Rahat' work='student' job='no'></Myfil>
       <Myfil name='Rana' work='Mistury' job='yes'></Myfil>
       <Myfil name='' work='Bekar' ></Myfil> */}
       {/* <HandlePractics></HandlePractics> */}
+
       <React_state></React_state>
-      {/* <Suspense fallback={<h1>Loading...</h1>}>
-        <Users loaderDatas={loaderData}></Users>
-      </Suspense> */}
+
       <Suspense fallback={<h1>Loading...</h1>}>
         <Users loaderData={i}></Users>
       </Suspense>
-
 
       <Suspense fallback={<h1>Country comming from country rest API</h1>}>
         <Countrys key={restAPIFunc} restAPIFunc={restAPIFunc}></Countrys>
