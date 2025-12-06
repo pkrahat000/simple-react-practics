@@ -17,7 +17,7 @@ const Country = ({data, handleCountryVisited}) => {
             setVisited(!visited)
             handleCountryVisited(data)
         }
-        console.log(visited)
+        // console.log(visited)
     return (
         <div>
                     <div className={`body ${visited && 'boday-od-card-visited'}`}>

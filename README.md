@@ -42,3 +42,10 @@ array state e add korte hole spreade operator(...) diye korte hoy
         setVisited(finalData)
         }
     
+
+
+
+ <!-- ****************************************** local stroge ************************** -->
+ // 1. full data bara bar set korle onek jaygay doublicate and space khay tai just id local stroge kore id diye data fnd kore deta neyar process currect 
+ // 2. src er moddhe Utilitis folder and er Utilitis.jsx file moddhe create
+ // 3. 

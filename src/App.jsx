@@ -6,6 +6,7 @@ import React_state from '../my_projects_file/react_state'
 import Users from '../my_projects_file/Users'
 import { Suspense } from 'react'
 import Countrys from './country_project/Components/Countrys'
+import Foods from './food_section/Foods/Foods'
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
       return countryDetails
     }
     const restAPIFunc = countryRestAPI()
+
+
+   
   
   return (
     <>
@@ -46,6 +50,8 @@ function App() {
       <Suspense fallback={<h1>Country comming from country rest API</h1>}>
         <Countrys key={restAPIFunc} restAPIFunc={restAPIFunc}></Countrys>
       </Suspense>
+
+      <Foods></Foods>
 
 
     </>
@@ -97,7 +103,7 @@ function FinalCard(){
 
 
 function Card(props){
-  console.log(props.img)
+  // console.log(props.img)
   return(
 <>
 <div className='main-card'>
